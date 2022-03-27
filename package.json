@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "env-cmd -e development node src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "adm-zip": "^0.5.9",
     "axios": "^0.26.1",
-    "form-data": "^4.0.0"
+    "form-data": "^4.0.0",
+    "pg": "^8.7.3",
+    "sharp": "^0.30.3"
   },
   "devDependencies": {
+    "env-cmd": "^10.1.0",
     "nodemon": "^2.0.15"
   }
 }
